@@ -19,7 +19,7 @@ function Curves(){
 	var py = 500;
 	  
 	var colours = ['#000000', '#FFFFFF', '#FF0000', '#FF7F00','#FFFF00','#009933','#33CC33','#007FFF','#0000FF','#7F00FF']
-	var worm_colour = '#000000'
+	var worm_colour = '#FF0000'
 	var worm_length = 5;
 	var worm_thickness = 2;
 		
@@ -212,9 +212,9 @@ function Curves(){
 	
 	
 	 var CreateControls = function(){
-		CreateColourControls();
+		//CreateColourControls();
 		CreateMiscControls();
-		CreateWormControls();
+		//CreateWormControls();
 	 }
 	 
 	 //Creates the save and clear controls
